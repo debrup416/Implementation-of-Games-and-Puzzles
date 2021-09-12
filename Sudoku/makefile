@@ -1,4 +1,4 @@
-output: main.o blackjack.o
+output: main.o sudoku.o
 	g++ main.o sudoku.o -o output
 
 main.o: main.cpp
